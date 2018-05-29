@@ -45,6 +45,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4412-common/proprietary/lib/libcec.so:system/lib/libcec.so \
     vendor/samsung/smdk4412-common/proprietary/lib/libddc.so:system/lib/libddc.so \
     vendor/samsung/smdk4412-common/proprietary/lib/libedid.so:system/lib/libedid.so \
+    vendor/samsung/smdk4412-common/proprietary/lib/libfimg.so:system/lib/libfimg.so \
+    vendor/samsung/smdk4412-common/proprietary/lib/libhwconverter.so:system/lib/libhwconverter.so \
+    vendor/samsung/smdk4412-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/smdk4412-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/smdk4412-common/proprietary/usr/idc/melfas_ts.idc:system/usr/idc/melfas_ts.idc \
     vendor/samsung/smdk4412-common/proprietary/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc \
@@ -65,3 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/smdk4412-common/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/smdk4412-common/proprietary/vendor/firmware/setfile.bin:system/vendor/firmware/setfile.bin \
     vendor/samsung/smdk4412-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+PRODUCT_PACKAGES += \
+    libfimc
